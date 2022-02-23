@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Peras",
+    "thumbnail": "https://farmaciaribera.es/blog/wp-content/uploads/2020/01/Beneficios-de-comer-peras.jpg",
+    "price": "5"
+  },
+  {
+    "id": 2,
+    "name": "Manzanas",
+    "thumbnail": "https://t1.uc.ltmcdn.com/images/6/6/4/que_vitaminas_tiene_la_manzana_51466_600.jpg",
+    "price": "4"
+  },
+  {
+    "id": 3,
+    "name": "Bananas",
+    "thumbnail": "https://cdn.agroempresario.com/images/posts/3b1c8d94cd0b3ad2ccad64bf2b46810e8f7463e87934e778_840.jpg",
+    "price": "6"
+  },
+  {
+    "id": 4,
+    "name": "Duraznos",
+    "thumbnail": "https://www.animalgourmet.com/wp-content/uploads/2019/06/apricots-3433818_1920.jpg",
+    "price": "2"
+  },
+  {
+    "id": 5,
+    "name": "Frutillas",
+    "thumbnail": "https://www.lanacion.com.py/resizer/q48jr4JfnqG5Qq0r_FAzitg7nzw=/1016x0/smart/filters:format(jpg):quality(70)/s3.amazonaws.com/arc-wordpress-client-uploads/lanacionpy/wp-content/uploads/2017/08/08060726/DSC0106.jpg",
+    "price": "7"
+  },
+  {
+    "id": 6,
+    "name": "Kiwis",
+    "thumbnail": "https://i.blogs.es/df8116/kiwis1/1366_2000.jpg",
+    "price": "2"
+  },
+  {
+    "id": 7,
+    "name": "Melones",
+    "thumbnail": "https://static2.lasprovincias.es/www/multimedia/202106/09/media/melon.jpg",
+    "price": "7"
+  }
+]

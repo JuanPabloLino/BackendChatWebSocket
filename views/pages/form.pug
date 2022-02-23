@@ -1,0 +1,50 @@
+html(lang="en")
+    head 
+        link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous")
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+    body(class="container") 
+        script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous")
+
+        title 
+            h1  Frutas 
+  
+        main
+            p(class="h2 text-center ")
+                product Producto
+        
+            form(action="/products" method="post" class="form text-center ")
+                c
+                    label(for="name") 
+                        name
+                    input(type="text" name="name" id="name" class="mb-3")
+                div(class="form-group pb-3")
+                    label(for="exampleInputEmail1") 
+                        price Coloque el precio del producto
+                    input(type="text" class="form-control pb-3" name="price" id="exampleInputEmail1")
+                div(class="form-group pb-3")
+                    label(for="exampleInputEmail1") 
+                    Link Coloque el link de la imagen del producto
+                    input(type="text" class="form-control" name="thumbnail" id="exampleInputEmail1")
+                
+                button(type="submit" class="btn btn-primary") 
+                    updateProduct  Ingrese el producto
+
+
+    footer(class="text-center") 
+        
+            a(href="./list-productos" class="btn btn-primary m-2")
+                productList Lista de Productos
+            a(href="./form" class="btn btn-primary") 
+                form Reiniciar Formulario
+
+    div(id="messages")
+        form(id="chat_form")
+            p   Chat para mensajes de usuarios:
+            input(type="text" id="email" placeholder="Email")
+        div(id="lista_mensaje_final")
+            input(type="text" id="text" placeholder="Escriba aquí su mensaje")
+            input(type="submit" value="Enviar")
+
+    
